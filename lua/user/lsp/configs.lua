@@ -9,7 +9,7 @@ if not lspconfig_ok then
 end
 
 -- TODO find server from settings dir
-local servers = { "jsonls", "sumneko_lua" }
+local servers = { "jsonls", "sumneko_lua", "clangd" }
 
 lsp_installer.setup {
   ensure_installed = servers
