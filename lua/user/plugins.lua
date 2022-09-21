@@ -47,10 +47,10 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment staff
   use "akinsho/toggleterm.nvim" -- Open terminal in nvim
+  use "anuvyklack/pretty-fold.nvim" -- Fold functions, etc
 
   -- Colorschemes
-  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "lunarvim/darkplus.nvim"
+  use "EdenEast/nightfox.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
