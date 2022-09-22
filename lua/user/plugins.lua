@@ -48,6 +48,7 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment staff
   use "akinsho/toggleterm.nvim" -- Open terminal in nvim
   use "anuvyklack/pretty-fold.nvim" -- Fold functions, etc
+  use "lukas-reineke/indent-blankline.nvim" -- Indent blankline
 
   -- Colorschemes
   use "EdenEast/nightfox.nvim"
